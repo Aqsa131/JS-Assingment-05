@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- <a href="" onclick="clicked()">Button Clicked</a> -->
+    <a href="" onclick="showText()">
+        <img style="width: 100px; height: 100px;"
+        src="https://www.apple.com/newsroom/images/product/iphone/standard/Apple_iphone13_hero_09142021_inline.jpg.large.jpg"
+       >
+    </a>
+    <a href="" onclick="showthisText()">
+        <img style="width: 100px; height: 100px;"
+        src="https://m.media-amazon.com/images/I/71gm8v4uPBL._AC_UF1000,1000_QL80_.jpg">
+    </a>
+    <a href="" onclick="vivo()">
+        <img style="width: 100px; height: 100px;" src="https://inventstore.in/wp-content/uploads/2023/04/Blue-scaled.webp"
+        >
+    </a>
+    <br><br>
+    <table >
+        <tr>
+            <td style="width: 100px;"><b>Name</b></td>
+            <td style="width: 100px;"><b>Class</b></td>
+            <td style="width: 100px;"><b>Marks</b></td>
+            <td style="width: 100px;"><b>Action</b></td>
+
+        </tr>
+        
+        <tr>
+            <td id="deleteLine1" style="width: 100px;">Aqsa</td>
+            <td id="deleteLine1" style="width: 100px;">9th</td>
+            <td id="deleteLine1" style="width: 100px;">50</td>
+            <td><button onclick="deleted()">Delete</button></td>
+        </tr><tr>
+            <td id="deleteLine2" style="width: 100px;">hira</td>
+            <td id="deleteLine2" style="width: 100px;">10th</td>
+            <td id="deleteLine2" style="width: 100px;">64</td>
+            <td><button onclick="deleted2()">Delete</button></td>
+
+        </tr><tr>
+            <td id="deleteLine3" style="width: 100px;">iqra</td>
+            <td id="deleteLine3" style="width: 100px;">4th</td>
+            <td id="deleteLine3" style="width: 100px;">74</td>
+            <td><button onclick="deleted3()">Delete</button></td>
+
+        </tr><tr>
+            <td id="deleteLine4" style="width: 100px;">Iqra</td>
+            <td id="deleteLine4" style="width: 100px;">3rd</td>
+            <td id="deleteLine4" style="width: 100px;">68</td>
+            <td><button onclick="deleted4()">Delete</button></td>
+
+        </tr><tr>
+            <td id="deleteLine5" style="width: 100px;">Jia</td>
+            <td id="deleteLine5" style="width: 100px;">2nd</td>
+            <td id="deleteLine5" style="width: 100px;">60</td>
+            <td><button onclick="deleted5()">Delete</button></td>
+
+        </tr>
+        
+    </table>
+
+
+
+    <a href="">
+        <img id="image" onmouseout="mouseOutFromimage()" onmouseover="mouseOnImage() " src="https://img.freepik.com/free-photo/colorful-design-with-spiral-design_188544-9588.jpg" alt="">
+    </a>
+    <script src="index.js"></script>
+
+
+<br><br><br>
+    <button onclick="increase()">Increase</button>
+    <button onclick="decrease()">Decrease</button>
+    <h1 id="increament">0 </h1>
+</body>
+
+</html>
